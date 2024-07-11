@@ -46,6 +46,7 @@ if (strtoupper($respuesta1) == "S") {
     }
 } else {
     echo "Adios";
+    exit();
 }
 
 $buscar = readline("Ingrese nombre o DNI, de empleado a buscar: ");
